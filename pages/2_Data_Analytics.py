@@ -11,7 +11,7 @@ load_css()
 st.title("Data Analytics")
 st.write("This page will show the data analysis results.")
 st.write("This project involves analyzing insurance claims data to identify patterns and insights that can help improve the claims process and reduce fraud. The analysis includes data cleaning, exploratory data analysis, and visualization of key metrics.")
-df = pd.read_csv("C:/Users/gito2/Downloads/streamlit-demo-app-main/insurance_claims.csv")  # Assuming you have a CSV file with your projects
+df = pd.read_csv("insurance_claims.csv")  # Assuming you have a CSV file with your projects
 df.drop(["incident_hour_of_the_day", 'insured_zip', 'policy_bind_date', 'incident_location'], axis=1, inplace=True)
 
 
