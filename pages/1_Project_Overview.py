@@ -7,9 +7,7 @@ load_css()
 
 st.title("Project Overview")
 st.write("This page contains the overview of the project.")
-
-st.subheader("Insurance Claims Data Analysis")
-st.write("This project involves analyzing insurance claims data to identify patterns and insights that can help improve the claims process and reduce fraud.")
+st.write("Overview of the Insurance Claims Analysis Project"")
 
 
 st.write("## Insurance Claims Data")
