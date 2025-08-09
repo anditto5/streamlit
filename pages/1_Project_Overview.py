@@ -7,7 +7,7 @@ load_css()
 
 st.title("Project Overview")
 st.write("This page contains the overview of the project.")
-st.write("Overview of the Insurance Claims Analysis Project"")
+st.write("Overview of the Insurance Claims Analysis Project.")
 
 
 st.write("## Insurance Claims Data")
