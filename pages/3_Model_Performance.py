@@ -12,7 +12,7 @@ load_css()
 
 st.title("Model Performance")
 st.write("This page shows how well the model performs.")
-df = pd.read_csv("C:/Users/gito2/Downloads/streamlit-demo-app-main/insurance_claims.csv")  # Assuming you have a CSV file with your projects
+df = pd.read_csv("insurance_claims.csv")  # Assuming you have a CSV file with your projects
 df.drop(["incident_hour_of_the_day", 'insured_zip', 'policy_bind_date', 'incident_location'], axis=1, inplace=True)
 
 
