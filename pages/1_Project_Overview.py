@@ -13,7 +13,7 @@ st.write("This project involves analyzing insurance claims data to identify patt
 
 
 st.write("## Insurance Claims Data")
-df = pd.read_csv("C:/Users/gito2/Downloads/streamlit-demo-app-main/insurance_claims.csv")  # Assuming you have a CSV file with your projects
+df = pd.read_csv("insurance_claims.csv")  # Assuming you have a CSV file with your projects
 df.drop(["incident_hour_of_the_day",'insured_zip','policy_bind_date','incident_location'],axis=1,inplace=True)
 st.write(df.head())  # Display the first few rows of the dataset
 
