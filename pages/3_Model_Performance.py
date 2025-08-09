@@ -11,7 +11,7 @@ from utils import load_css
 load_css()
 
 st.title("Model Performance")
-st.write("This page shows how well the model performs.")
+st.write("his section evaluates the performance of machine learning models used in the insurance claims data analysis project. It includes metrics such as accuracy, precision, and recall to assess the model's effectiveness in predicting fraudulent claims.")
 df = pd.read_csv("insurance_claims.csv")  # Assuming you have a CSV file with your projects
 df.drop(["incident_hour_of_the_day", 'insured_zip', 'policy_bind_date', 'incident_location'], axis=1, inplace=True)
 
