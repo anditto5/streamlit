@@ -9,7 +9,7 @@ st.title("Project Overview")
 st.write("This page contains the overview of the project.")
 
 st.subheader("Insurance Claims Data Analysis")
-st.write("This project involves analyzing insurance claims data to identify patterns and insights that can help improve the claims process and reduce fraud. The analysis includes data cleaning, exploratory data analysis, and visualization of key metrics.")
+st.write("This project involves analyzing insurance claims data to identify patterns and insights that can help improve the claims process and reduce fraud.")
 
 
 st.write("## Insurance Claims Data")
